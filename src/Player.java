@@ -18,13 +18,14 @@ public class Player {
         Audio.play();
         //Regolazione del volume
         Audio.AlzaVolume();
+        Audio.AbbassaVolume();
 
         ElementoVideo Video = new ElementoVideo("Video", 10,"link",3 );
         Video.play();
         Video.AlzaVolume();
         Video.AbbassaVolume();
-        Video.AumentaLuminositàVideo();
-        Video.DiminuisciLuminositàVideo();
+        Video.AumentaLuminositaVideo();
+        Video.DiminuisciLuminositaVideo();
 
         ElementoImmagine Img = new ElementoImmagine("Immagine",2 );
         Img.Show();
